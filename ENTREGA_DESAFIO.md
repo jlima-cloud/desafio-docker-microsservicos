@@ -111,10 +111,10 @@ networks:
 ## 4. Evidências de Validação
 
 ### 4.1. Status dos Containers (docker ps)
-![Status](https://i.ibb.co/XmtHbTH/print-docker-ps.png)
+![Status](https://i.ibb.co/XmtHbTH/print-docker-ps.pngdesafio-docker/evidencias/print_docker_ps.png)
 
 ### 4.2. Interface da Aplicação (Browser)
-![Interface](https://i.ibb.co/b5bvgqC/resultado-final.png)
+![Interface](https://i.ibb.co/b5bvgqC/resultado-final.pngdesafio-docker/evidencias/resultado_final.png)
 
 ---
 
