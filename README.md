@@ -34,3 +34,21 @@ O ambiente é composto por três camadas isoladas:
    ```bash
    git clone [https://github.com/jlima-cloud/desafio-docker-microsservicos.git](https://github.com/jlima-cloud/desafio-docker-microsservicos.git)
    cd desafio-docker-microsservicos
+
+# 2. Acesse o diretório do projeto
+cd desafio-docker-microsservicos
+
+# 3. Garanta que não há containers órfãos rodando (Limpeza)
+docker compose down
+
+# 4. Suba a infraestrutura completa em background
+docker compose up -d --build
+
+# 5. Verifique se todos os serviços estão em execução (Status: Up)
+docker compose ps
+
+
+🔗 Acesso à Aplicação
+
+Após a execução dos comandos acima, a aplicação estará disponível em:
+👉 URL: http://localhost (Porta 80)
